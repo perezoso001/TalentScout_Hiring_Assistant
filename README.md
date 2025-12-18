@@ -25,14 +25,16 @@ and generating technical questions based on the candidate’s declared tech stac
 ---
 
 ## 📂 Project Structure
+```plaintext
 TalentScout_Hiring_Assistant/
-├── app.py
-├── utils.py
-├── prompts.py
-├── requirements.txt
-├── README.md
+├── app.py              # Main Streamlit application
+├── utils.py            # Utility functions and LLM logic
+├── prompts.py          # Prompt templates and engineering
+├── requirements.txt    # Project dependencies
+├── README.md           # Project documentation
 └── .streamlit/
-└── secrets.toml
+    └── secrets.toml    # Local secrets (API keys) - gitignored
+
 ---
 
 ## ⚙️ Installation & Setup
