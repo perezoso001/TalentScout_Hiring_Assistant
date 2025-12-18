@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 from utils import get_llm_response
-from prompts import SYSTEM_PROMPT, get_step_prompt
+from prompts import SYSTEM_PROMPT, TECH_QUESTION_PROMPT
 
 # ------------------- Validation Helpers -------------------
 def is_valid_email(email: str) -> bool:
