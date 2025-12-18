@@ -34,7 +34,7 @@ TalentScout_Hiring_Assistant/
 ├── README.md           # Project documentation
 └── .streamlit/
     └── secrets.toml    # Local secrets (API keys) - gitignored
-
+```
 ---
 
 ## ⚙️ Installation & Setup
