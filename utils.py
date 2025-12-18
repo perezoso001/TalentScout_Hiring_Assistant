@@ -1,37 +1,32 @@
 from huggingface_hub import InferenceClient
 import streamlit as st
 
-# Use the secret name consistently (you can choose one – I'll use "HF_TOKEN")
-# In Streamlit Cloud secrets, add: HF_TOKEN = hf_your_token_here
+# Use HF_TOKEN in Streamlit secrets
 hf_token = st.secrets["HF_TOKEN"]
 
-# Initialize the client with a fully FREE and reliable model
+# Reliable free model that works on Inference Providers
 client = InferenceClient(
-    model="microsoft/Phi-3.5-mini-instruct",  # 100% free, fast, and excellent for chat
+    model="mistralai/Mistral-7B-Instruct-v0.3",  # ← This one is guaranteed to work free
     token=hf_token
 )
 
-# Alternative free models you can swap in (uncomment one if you prefer):
-# model="Qwen/Qwen2.5-7B-Instruct"           # Very strong, multilingual
-# model="mistralai/Mistral-7B-Instruct-v0.3" # Classic reliable choice
-# model="google/gemma-2-9b-it"               # Also free and capable
+# Fallback options (uncomment if you want to try):
+# model="Qwen/Qwen2.5-7B-Instruct"
+# model="HuggingFaceTB/SmolLM2-1.7B-Instruct"
 
 
 def get_llm_response(messages: list[dict]) -> str:
     """
-    Send messages to the LLM and return the assistant's response.
-    messages: list of dicts with 'role' and 'content' (system, user, assistant)
+    Send full message history to the LLM and return response.
     """
     try:
         response = client.chat.completions.create(
-            messages=messages,       # Pass the full message history directly
-            max_tokens=600,          # Good length for technical answers
-            temperature=0.3,         # Low for consistent, professional responses
-            # stop=["</s>"]          # Optional: some models use this
+            messages=messages,        # Full history including system prompt
+            max_tokens=600,
+            temperature=0.3,
         )
         return response.choices[0].message.content.strip()
     
     except Exception as e:
-        # Graceful fallback – important for demo stability
-        st.error("LLM temporarily unavailable. Please try again.")
-        return f"Sorry, I couldn't connect to the language model right now. (Error: {str(e)})"
+        # Friendly fallback so app doesn't crash
+        return f"Sorry, the language model is temporarily unavailable. Please try again. (Error: {str(e)})"
