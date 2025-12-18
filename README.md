@@ -33,7 +33,7 @@ TalentScout_Hiring_Assistant/
 ├── requirements.txt
 ├── README.md
 └── .streamlit/
-	└── secrets.toml
+└── secrets.toml
 
 ---
 
