@@ -1,0 +1,239 @@
+1
+00:00:00,011 --> 00:00:02,507
+Okay, let me start.
+
+2
+00:00:02,508 --> 00:00:07,377
+Uh, this is my submission for AA slash ML
+
+3
+00:00:08,121 --> 00:00:10,375
+intern position in PGAGI.
+
+4
+00:00:10,767 --> 00:00:15,323
+Okay, uh, I have created a talent support hiring assistant which will be helping
+
+5
+00:00:15,324 --> 00:00:19,888
+us to have a conversation with candidates and get their answers from
+
+6
+00:00:19,889 --> 00:00:24,555
+us. Then, using text
+
+7
+00:00:24,556 --> 00:00:28,741
+tag which they have asked for and the position,
+
+8
+00:00:28,742 --> 00:00:32,636
+you will get details from through this conversations.
+
+9
+00:00:32,900 --> 00:00:37,340
+I have built this bot here to ask to students.
+
+10
+00:00:37,807 --> 00:00:40,037
+Let me go through my,
+
+11
+00:00:40,038 --> 00:00:44,736
+I will be the candidate and the talent support hiring assistant will
+
+12
+00:00:44,737 --> 00:00:49,349
+be assessing me for this role. So, you will get
+
+13
+00:00:49,350 --> 00:00:52,677
+those details from me. Okay,
+
+14
+00:00:52,678 --> 00:00:54,900
+let me start here. Okay,
+
+15
+00:00:54,901 --> 00:00:57,531
+let's get started. I'm searching for my full name.
+
+16
+00:00:57,532 --> 00:00:59,578
+Okay, very nice to meet you.
+
+17
+00:00:59,579 --> 00:01:01,861
+Okay, what's your email address?
+
+18
+00:01:01,862 --> 00:01:06,861
+and
+
+19
+00:01:08,373 --> 00:01:09,071
+here I have a give some call back
+
+20
+00:01:17,307 --> 00:01:21,152
+it will say it is not valid because it is not it is kind
+
+21
+00:01:21,153 --> 00:01:25,488
+of comparing the pattern like the user name at and the domain name it
+
+22
+00:01:25,489 --> 00:01:31,634
+has to be in that format
+
+23
+00:01:49,098 --> 00:01:53,653
+I can't just give number like this, it's also looking a pattern in it,
+
+24
+00:01:53,654 --> 00:01:57,223
+so I have to give a proper number like this.
+
+25
+00:01:57,870 --> 00:02:00,080
+If it's cooling, then it's asking for a microphone.
+
+26
+00:02:02,058 --> 00:02:05,064
+I'm giving 4 over here and the position I'm looking for,
+
+27
+00:02:05,065 --> 00:02:07,724
+8 over Anna,
+
+28
+00:02:07,725 --> 00:02:10,044
+West,
+
+29
+00:02:10,045 --> 00:02:14,461
+then complications,
+
+30
+00:02:14,462 --> 00:02:18,211
+Chennai, and Popup,
+
+31
+00:02:18,212 --> 00:02:21,913
+yeah. I'm giving, it's still asking me,
+
+32
+00:02:21,914 --> 00:02:25,132
+next time. Okay, the slowness,
+
+33
+00:02:25,133 --> 00:02:29,414
+getting the system a little bit slow,
+
+34
+00:02:29,415 --> 00:02:37,189
+so we have to bear with it a little So,
+
+35
+00:02:37,190 --> 00:02:40,101
+there are five questions, which has been answered.
+
+36
+00:02:40,102 --> 00:02:42,293
+Framed by their experience,
+
+37
+00:02:42,294 --> 00:02:45,104
+and the text stack they choose, and the, and the question they have enquired
+
+38
+00:02:45,105 --> 00:02:45,434
+for.
+
+39
+00:02:50,208 --> 00:02:52,430
+So, we've been basic, two intermediate questions, in which it's a mixture. So,
+
+40
+00:02:52,431 --> 00:02:54,550
+I have to answer it one by one,
+
+41
+00:02:54,551 --> 00:03:00,204
+like this. Thank you for
+
+42
+00:03:00,205 --> 00:03:04,180
+your time,
+
+43
+00:03:04,181 --> 00:03:09,040
+your profile
+
+44
+00:03:09,041 --> 00:03:16,108
+has been recorded,
+
+45
+00:03:16,109 --> 00:03:20,784
+our team is going do this a bit,
+
+46
+00:03:20,785 --> 00:03:23,002
+and get back to you soon. Have a great day.
+
+47
+00:03:23,003 --> 00:03:25,274
+Yeah. This is how it's, my,
+
+48
+00:03:25,275 --> 00:03:28,229
+part of this. Let me show you my,
+
+49
+00:03:28,230 --> 00:03:30,189
+my source code for this. As I said, ah, my, because it's a loom
+
+50
+00:03:30,190 --> 00:03:32,284
+recording,
+
+51
+00:03:32,285 --> 00:03:36,891
+the system is getting a bit
+
+52
+00:03:36,892 --> 00:03:41,709
+slow, so we have to bear with
+
+53
+00:03:41,710 --> 00:03:43,386
+it. Yeah.
+
+54
+00:03:47,749 --> 00:03:52,436
+This And
+
+55
+00:03:52,437 --> 00:03:57,436
+this
+
+56
+00:03:58,290 --> 00:04:03,293
+website is, being streamed through Streamlight,
+
+57
+00:04:03,756 --> 00:04:07,178
+which is a free source here. And also,
+
+58
+00:04:07,179 --> 00:04:10,719
+I have used a lot of, ah, free sources around,
+
+59
+00:04:10,720 --> 00:04:11,823
+like, ah, EAPS as well, for, ah, gain phase.
+
+60
+00:04:19,191 --> 00:04:19,925
+Yeah. For this project itself, that's all for me. Yeah. Thank you.

@@ -60,6 +60,7 @@ streamlit run app.py
 ## Live Demo
 The chatbot is deployed on Streamlit Community Cloud:  
 🔗 [Click here to try it live](https://talentscouthiringassistant-hawgdwl385hct55x7wwqf3.streamlit.app/)
+	Demo video Link: https://www.loom.com/share/f3ff8cac79114c639e89b1a5f0aa1e2c
 
 ## Features Implemented
 - Greeting and purpose explanation
