@@ -26,7 +26,6 @@ and generating technical questions based on the candidate’s declared tech stac
 
 ## 📂 Project Structure
 TalentScout_Hiring_Assistant/
-│
 ├── app.py
 ├── utils.py
 ├── prompts.py
@@ -34,7 +33,6 @@ TalentScout_Hiring_Assistant/
 ├── README.md
 └── .streamlit/
 └── secrets.toml
-
 ---
 
 ## ⚙️ Installation & Setup
