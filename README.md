@@ -54,3 +54,26 @@ huggingface_api_key = "your_hf_token"
 Run the app:
 
 streamlit run app.py
+
+---
+
+## Live Demo
+The chatbot is deployed on Streamlit Community Cloud:  
+🔗 [Click here to try it live](https://talentscouthiringassistant-hawgdwl385hct55x7wwqf3.streamlit.app/)
+
+## Features Implemented
+- Greeting and purpose explanation
+- Step-by-step collection of candidate info (name, email, phone, experience, position, location, tech stack)
+- LLM-powered generation of 3–5 technical questions based on tech stack
+- Context-aware conversation using message history
+- Graceful exit on keywords ("bye", "exit", "done")
+- Fallback for unclear inputs
+- Deployed publicly for demo
+
+## Technologies Used
+- Frontend: Streamlit
+- LLM: Hugging Face Inference API (google/gemma-2-2b-it)
+- Libraries: huggingface_hub, streamlit
+
+## Deployment
+Deployed on Streamlit Community Cloud (free tier) for live access.
